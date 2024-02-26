@@ -1,0 +1,120 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+#Nav-Bar {
+    display: flex;
+    align-items: center;
+    position: relative;   
+}
+
+#logo {
+    margin: -10px -20px;
+ 
+}
+
+#logo img {
+    padding: 20px;
+    width: 100px;
+    margin: 20px 20px;
+}
+#Nav-Bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: flex;
+}
+
+#Nav-Bar::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.1;
+    position: absolute;
+}
+
+ #nav-bar ul li {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    
+}
+
+#nav-bar ul li a:hover {
+    color: rgb(87, 85, 82);
+}
+
+#Home {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+
+#Home::before {
+    content: "";
+    background-image:url('../Barda/images2/fastfood.jpg');
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#Home h1{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+    text-align: center;
+}
+
+#Home p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.2rem;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+
+}
+#services{
+    display: flex;
+    margin: 20px;
+}
+#services .box{
+    border: 2px solid;
+    margin:2px;
+}
+#service.box img{
+    height: 140px;
+    display: block;
+}
+/*clients*/
+#tetimonial-container{
+    position:relative;
+    margin: 30px;
+}
+#clients-items img{
+    width: 100px;
+    padding: 6px;
+    height: auto;
+}
+#clients-before{
+    content:"";
+    background: url();
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    height: 30%;
+    width: 100%;
+}
